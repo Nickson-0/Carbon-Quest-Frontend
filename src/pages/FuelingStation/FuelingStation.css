@@ -1,0 +1,22 @@
+.fueling-station {
+  display: grid;
+  grid-template-areas:
+    'nav main'
+    'nav footer';
+  grid-template-rows: 90%;
+  grid-template-columns: 0px;
+  height: calc(100vh - 100px);
+  padding: 10px;
+}
+
+.fueling-station-footer {
+  margin: auto;
+  grid-area: footer;
+  padding-left: var(--chakra-space-2);
+}
+
+.fueling-station-main {
+  grid-area: main;
+  padding-left: var(--chakra-space-2);
+  overflow: auto;
+}

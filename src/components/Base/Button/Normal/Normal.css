@@ -1,0 +1,15 @@
+.normal-container {
+  display: flex;
+  width: 64px;
+  height: 40px;
+  padding: 8px;
+  border-radius: 10px !important;
+  margin-top: 4px;
+  font-size: 16px;
+}
+
+.normal-container:hover {
+  color: white;
+  background-color: #006aff !important;
+  transform: scale(1.1) perspective(1px);
+}

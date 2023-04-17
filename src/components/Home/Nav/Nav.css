@@ -1,0 +1,56 @@
+.home-nav {
+  background-color: #33aaff;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border-radius: 25px;
+  grid-area: nav;
+  display: flex;
+  flex-direction: column;
+  z-index: 2 !important;
+}
+
+.home-nav-user {
+  display: flex;
+  width: 80%;
+  height: 600px;
+  margin: 10px 0px 78px 37px;
+  position: relative;
+  justify-content: space-between;
+  padding: 1rem;
+  padding-left: 4.2rem;
+}
+
+.home-nav-title {
+  width: 100%;
+  text-align: center;
+}
+
+.home-nav-feature {
+  display: flex;
+  background: #44ccff;
+  width: 66%;
+  height: 662px;
+  margin: 4px 117px 75px 64px;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.home-nav-source {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-container > div {
+  background-color: #33aaff;
+  width: 100px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 30px;
+  padding-top: 3rem;
+}

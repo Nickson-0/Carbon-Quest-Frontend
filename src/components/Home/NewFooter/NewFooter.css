@@ -1,0 +1,57 @@
+.home-footer1 {
+  width: 50%;
+  display: flex;
+  background-color: #44ccff;
+  border-radius: 25px;
+  grid-area: footer;
+  padding-left: var(--chakra-space-2);
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+  margin-right: -10px;
+}
+
+.home-footer2 {
+  width: 58%;
+  display: -webkit-box;
+  background-color: #44ccff;
+  border-radius: 25px;
+  grid-area: footer;
+  padding-left: var(--chakra-space-2);
+  cursor: pointer;
+}
+
+.home-footer-avatar1 {
+  font-size: 70px;
+  color: rgb(0, 0, 214);
+  display: flex;
+  margin-left: 15%;
+  cursor: pointer;
+  width: 30%;
+  min-width: 130px;
+}
+
+.home-footer-avatar2 {
+  font-size: 70px;
+  color: rgb(0, 0, 214);
+  display: flex;
+  width: 30%;
+  min-width: 130px;
+  cursor: pointer;
+}
+
+.home-footer-avatar3 {
+  font-size: 70px;
+  color: rgb(0, 0, 214);
+  display: flex;
+  min-width: 130px;
+  cursor: pointer;
+}
+
+.home-footer-image {
+  font-size: 70px;
+  color: rgb(0, 0, 214);
+  display: flex;
+  align-self: center;
+  cursor: pointer;
+}

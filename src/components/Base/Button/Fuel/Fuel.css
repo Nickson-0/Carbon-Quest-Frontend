@@ -1,0 +1,16 @@
+.fuel-container {
+  display: flex;
+  width: 88px;
+  height: 40px;
+  padding: 24px;
+  border-radius: 25px !important;
+  margin-top: 12px;
+  font-size: 16px;
+  background-color: #1dcef1 !important;
+}
+
+.fuel-container:hover {
+  color: white !important;
+  background-color: #006aff !important;
+  transform: scale(1.1) perspective(1px);
+}

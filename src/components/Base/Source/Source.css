@@ -1,0 +1,22 @@
+.source-color {
+  display: flex;
+  align-self: flex-end;
+  width: 130px;
+  color: #000000;
+  height: 65px;
+  border-radius: 25px;
+  border: solid rgb(46, 43, 43);
+}
+
+.source-color-span {
+  font-size: 24px;
+  width: 65%;
+  text-align: right;
+  margin: auto;
+  padding-right: 5px;
+}
+
+.source-image {
+  width: 20px;
+  height: 20px;
+}

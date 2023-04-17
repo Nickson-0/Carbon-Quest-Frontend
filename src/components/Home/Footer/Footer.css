@@ -1,0 +1,27 @@
+.home-footer {
+  display: flex;
+  background-color: #44ccff;
+  border-radius: 25px;
+  grid-area: footer;
+  padding-left: var(--chakra-space-2);
+}
+
+.home-footer-avatar4 {
+  font-size: 70px;
+  color: rgb(0, 0, 214);
+  display: flex;
+  position: absolute;
+  align-self: center;
+  left: 7%;
+  cursor: pointer;
+}
+
+.home-footer-avatar5 {
+  font-size: 70px;
+  color: rgb(0, 0, 214);
+  display: flex;
+  position: absolute;
+  align-self: center;
+  left: 17%;
+  cursor: pointer;
+}

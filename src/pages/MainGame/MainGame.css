@@ -1,0 +1,13 @@
+.home {
+  padding: 0px 10px 10px 10px;
+  display: grid;
+  grid-template-areas:
+    'main nav'
+    'footer nav';
+  grid-template-rows: 75% 25%;
+  grid-template-columns: calc(100% - 410px) 400px;
+  grid-gap: 10px;
+  color: var(--chakra-colors-blackAlpha-700);
+  font-weight: var(--chakra-fontWeights-bold);
+  height: 99%;
+}

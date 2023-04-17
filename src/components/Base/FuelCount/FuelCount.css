@@ -1,0 +1,14 @@
+.fuelCount-container {
+  display: flex;
+  color: #000000;
+  width: 56px;
+  height: 40px;
+  border-radius: 25px;
+  border: solid rgb(3, 3, 3);
+}
+
+.fuelCount-span {
+  font-size: 16px;
+  text-align: center;
+  margin: auto;
+}

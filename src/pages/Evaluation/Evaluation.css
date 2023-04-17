@@ -1,0 +1,27 @@
+.evaluation-gird {
+  padding: 10px;
+  gap: 10px;
+  height: 100%;
+  display: grid;
+  grid-template-areas: 'nav main';
+  grid-template-columns: 250px calc(100% - 260px);
+  color: var(--chakra-colors-blackAlpha-700);
+  font-weight: var(--chakra-fontWeights-bold);
+  overflow-y: hidden;
+}
+
+.evaluation-nav {
+  position: relative;
+  grid-area: nav;
+  padding-left: var(--chakra-space-2);
+  background: #33aaff;
+}
+
+.evaluation-main {
+  padding: 30px;
+  display: -webkit-box;
+  grid-area: main;
+  padding-left: var(--chakra-space-2);
+  background: #42c6f8;
+  overflow-x: auto;
+}

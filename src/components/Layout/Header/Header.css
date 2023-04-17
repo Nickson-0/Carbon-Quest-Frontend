@@ -1,0 +1,26 @@
+.header-header {
+  grid-area: header;
+  background: #3388ff;
+  border-radius: 25px;
+  text-align: center;
+  margin: 12px 12px 12px 12px;
+  line-height: 75px;
+  white-space: pre;
+
+  color: white;
+  letter-spacing: 0px;
+  display: flex;
+  align-items: center;
+}
+
+.header-arrow {
+  font-size: 20px;
+  color: rgb(12, 12, 12);
+  margin-left: 20px;
+  /* display: flex;
+  position: absolute;
+  align-self: center;
+  left: 17%;
+  line-height: 210px;
+  cursor: pointer; */
+}

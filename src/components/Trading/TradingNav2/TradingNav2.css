@@ -1,0 +1,33 @@
+.trading-gird2 {
+  background-color: rgb(153, 238, 255);
+  height: 44rem;
+  width: 18rem;
+  margin-right: 13px;
+  margin-top: 21px;
+  position: relative;
+  z-index: 2;
+}
+
+.trading-nav-feature {
+  display: flex;
+  background: #99eeff;
+  width: 80%;
+  flex-direction: column;
+  gap: 1rem;
+  margin-left: 20px;
+}
+
+.trading-nav-source {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.trading-nav-user {
+  display: flex;
+  width: 80%;
+  height: 160px;
+  margin: auto;
+  margin-top: 6px;
+  position: relative;
+}
